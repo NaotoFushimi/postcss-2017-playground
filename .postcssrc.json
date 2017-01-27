@@ -1,0 +1,14 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-cssnext",
+    "postcss-flexbugs-fixes",
+    "postcss-flow-root",
+    "postcss-grid-kiss"
+  ],
+  "postcss-flow-root" : {
+    "fallback" : "clearfix"
+  },
+  "input": "src/index.css",
+  "output": "build/bundle.css"
+}

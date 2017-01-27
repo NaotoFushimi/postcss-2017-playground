@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "CSSビルドしてみた",
   "scripts": {
+    "watch:css": "postcss -w -c .postcssrc.json",
+    "build:css": "postcss -c .postcssrc.json",
     "watch": "NODE_ENV=development ./node_modules/.bin/webpack --watch --debug --progress --colors --config ./webpack.config.js"
   },
   "author": "",
@@ -13,9 +15,9 @@
     "postcss-flow-root": "^0.0.2",
     "postcss-grid-kiss": "^0.7.0",
     "postcss-import": "^9.1.0",
-    "postcss-loader": "^1.2.2",
-    "webpack": "beta",
-    "webpack-notifier": "^1.5.0"
+    "postcss": "^5.2.11",
+    "postcss-cli": "^2.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
