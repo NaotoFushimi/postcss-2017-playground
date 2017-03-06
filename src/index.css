@@ -1,0 +1,7 @@
+@import "./color.css";
+
+.cannot-selectble {
+    user-select: none;
+    color: var(--primaryColor);
+}
+
